@@ -242,7 +242,7 @@ var Properties = [{Name:"Mediterranean Ave.",
                    {Name:"Go",
                    Type:"Other", 
                    Position:1, 
-                   Events: ["pay"], 
+                   Events: ["collect"], 
                    },
                    
                    {Name:"Income Tax",
