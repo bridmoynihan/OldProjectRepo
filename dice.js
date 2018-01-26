@@ -45,7 +45,7 @@ function printValue(number1, number2){
 }
 
 function movePlayer(playerID, spacesMoved) {
-  players[playerID]['playerid'] += spacesMoved;
+  players[playerID]['player_id'] += spacesMoved;
   /*
   * We will add all error checking - whether they've gone around the board -
   * as well as things that may move the player, or if they land on a 
