@@ -1,3 +1,14 @@
+//Obtaining the players JSON object
+var requestURL = 'https://github.com/phillyb7/3305_project/blob/master/userObject.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+var players;
+request.onload = function() {
+  players = request.response;
+}
+
 //first dice
 var dice = {
   sides: 6,
@@ -34,7 +45,12 @@ function printValue(number1, number2){
 }
 
 function movePlayer(playerID, spacesMoved) {
-  
+  players[playerID]['playerid'] += spacesMoved;
+  /*
+  * We will add all error checking - whether they've gone around the board -
+  * as well as things that may move the player, or if they land on a 
+  * property or pass go later
+  */
 }
 
 //define button 
