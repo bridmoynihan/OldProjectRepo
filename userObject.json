@@ -2,7 +2,7 @@ userObj = {
 	"player_id": "",
 	"position": 0,
 	"capital": 1500,
-	"assets": {};
+	"assets": {},
 	"jail_card": false,
 	"jail_tag": false,
 	"colour": [
