@@ -28,9 +28,15 @@ function printNum2(number2) {
 //printing the total value on the screen
 function printValue(number1, number2){
   var Value = document.getElementById('value');
-  value.innerHTML = number1 + number2;
+  var val = number1 + number2;
+  value.innerHTML = val;
+  return val;
+}
+
+function movePlayer(playerID, spacesMoved) {
   
 }
+
 //define button 
 var button = document.getElementById('button');
 
@@ -40,8 +46,8 @@ button.onclick = function() {
   var randNum2 = dice2.roll();
   printNum(randNum1);
   printNum2(randNum2);
-  printValue(randNum1, randNum2);
-  
-  
+  var movesForward = printValue(randNum1, randNum2);
+  movePlayer(1, movesForwar);
+  //The 1 just above is the placeholder for the player's ID for the time being
 };
 
