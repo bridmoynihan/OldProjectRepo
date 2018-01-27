@@ -7,3 +7,18 @@ img{
   width:700px;
   height:700px;
 }
+
+table{
+  border-collapse: collapse;
+  width:700px;
+  height:700px;
+}
+#sq{
+border: .1px solid black;
+}
+
+#edge{
+border: 1px solid black;
+height:90px;
+width:90px;
+}
