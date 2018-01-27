@@ -9,16 +9,19 @@ img{
 }
 
 table{
+  table-layout:fixed;
   border-collapse: collapse;
   width:700px;
   height:700px;
 }
 #sq{
-border: .1px solid black;
+  border: .1px solid black;
+  height:fixed;
+  width:fixed;
 }
 
 #edge{
-border: 1px solid black;
-height:90px;
-width:90px;
+  border: 1px solid black;
+  height:90px;
+  width:90px;
 }
