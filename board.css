@@ -2,37 +2,40 @@ body{
   display:flex;
   align-items:center;
   justify-content:center;
-}
-img{
-  width:700px;
-  height:700px;
+  background-color: #ddf4df;
 }
 
 table{
+  border: 4px solid black;
   text-align: center;
   table-layout:fixed;
   border-collapse: collapse;
   width:700px;
   height:700px;
 }
-#sq{
-  /*border: 1px solid black; */
-  }
 
-#ver{
-/*  border: 1px solid black;*/
-}
-
-#edge{
-/*border: 1px solid black; */
-border: none;
-height: 93px !important;
-width: 93px !important;
-padding: 0px;
-margin: 0px;
-}
-
-div {
+#board {
     background-image: url('board.jpg');
     background-size: 700px 700px;
 }
+
+#hor{
+  /*border: 1px solid black; */
+  }
+
+ #ver{
+ /*border: 1px solid black;*/
+}
+
+ #edge{
+  /*border: 1px solid black; */
+  border: none;
+  height: 93px !important;
+  width: 93px !important;
+  padding: 0px;
+  margin: 0px;
+  }
+  .player{
+    width: 30px;
+    height:30px;
+  }
