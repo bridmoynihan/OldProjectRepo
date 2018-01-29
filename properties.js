@@ -271,6 +271,7 @@ var Properties = [{Name:"Mediterranean Ave.",
                    Type:"Other",
                    Position:1,
                    Events: ["collect"],
+                   First_Move : true;
                    },
 
                    {Name:"Income Tax",
@@ -351,7 +352,11 @@ function buy(){
   else if(Propertier.Rent_Due == true;){
     var rent_due = Properties.Rent;
     userObj.capital = userObj.capital - Properties.Rent; // paying player rent
-    
-
+   
   }
 }
+  
+  function collectGo(){ // not complete
+    if(Properties.First_Move != true // need a way of detecting user has passed go){
+       userObj.capital += 200;
+  }
