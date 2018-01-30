@@ -3,8 +3,6 @@ function addToPlayerAssets(userObj, propertyObj){
     type = propertyObj.Type;
     colour = propertyObj.Colour;
     userObj.assets[type] = name;
-    //this is probably wrong
-    //need to find a way to update colours in userObj
     userObj.colour[colour] += 1;
     //test
     document.write(userObj.assets);
