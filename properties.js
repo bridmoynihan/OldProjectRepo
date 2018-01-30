@@ -351,7 +351,10 @@ function buy(){
   }
   else if(Propertier.Rent_Due == true;){
     var rent_due = Properties.Rent;
+    var player = Properties.Owner;
     userObj.capital = userObj.capital - Properties.Rent; // paying player rent
+    player.captial = player.capital + rent_due;
+    
    
   }
 }
