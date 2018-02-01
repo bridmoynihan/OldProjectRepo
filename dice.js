@@ -74,11 +74,11 @@ var DoubleNumberCount = 0;
 
 if(RandomNumber == RandomNumber2){
   DoubleNumberCount +=1;
-  if DoubleNumberCount == 3{
+  if (DoubleNumberCount == 3){
     Console.log("Go To Jail Function goes here")
   }
 }
 else{
   DoubleNumberCount = 0;
 }
-}
+};
