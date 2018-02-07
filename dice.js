@@ -63,7 +63,7 @@ button.onclick = function() {
   printNum(randNum1);
   printNum2(randNum2);
   var movesForward = printValue(randNum1, randNum2);
-  movePlayer(1, movesForwar);
+  movePlayer(1, movesForward);
   //The 1 just above is the placeholder for the player's ID for the time being
 };
 
