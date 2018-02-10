@@ -8,6 +8,8 @@ var players;
 request.onload = function() {
   players = request.response;
 }
+//set timeout if dice button isn't clicked
+onload = setTimeOut();
 
 //first dice
 var dice = {
@@ -52,9 +54,19 @@ function movePlayer(playerID, spacesMoved) {
   * property or pass go later
   */
 }
+//set Time out function
+function setTimeOut(){
+  time = setTimeout(alertPlayer(), 3000);
+}
+//alert player their turn is up
+function alertPlayer(){
+alert("Your turn is over");
+clearTimeout(time);
+}
 
 //define button
 var button = document.getElementById('button');
+
 
 //button events on click
 button.onclick = function() {
